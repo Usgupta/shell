@@ -1,7 +1,8 @@
-# 50.005 2022 Programming Assignment 1
+# MINI SHELL
 
-Type your answer in the spaces provided in each file, labeled as `BEGIN ANSWER`. 
-1.  <span style="color:#f7007f;"><b>DO NOT</b></span> modify any `makefile`
-2.  <span style="color:#f7007f;"><b>DO NOT</b></span> create more scripts other than what's given in the starter code
-3.  <span style="color:#f7007f;"><b>DO NOT</b></span> modify any interface (keep original functions as-is)
-4.  <span style="color:#f7007f;"><b>DO NOT</b></span> print <span style="color:#f7007f;"><b>anything</b></span> to the console, other than the provided print statements. Any print statements you used for debugging must be deleted. 
+A basic shell which can do the following-
+1. find files
+2. change directory
+3. help command to show available commands or information about a command
+
+The program summond.c in /bin/source summons a daemon process and terminates so that the shell may continue to print the next prompt. This is unlike other programs where the shell waits for it to finish before printing the next prompt.
